@@ -120,3 +120,34 @@ nav div {
   font-weight: bold;
   color: #ffb500;
 }
+
+.form {
+  width: 70%;
+  display: flex;
+}
+label {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ffb500;
+}
+
+.galleryinfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.galleryinfo img {
+  width: 190px;
+  margin: 10px;
+  cursor: pointer;
+}
+.galleryinfo img:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
