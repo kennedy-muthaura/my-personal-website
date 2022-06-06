@@ -1,3 +1,7 @@
+function movetoaboutpage() {
+  window.location.href = "about.html";
+}
+
 function downloadcv() {
   alert("File download activated with javascript");
 }
