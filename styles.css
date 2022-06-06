@@ -25,6 +25,12 @@ nav div {
   padding: 0px 10px;
   cursor: pointer;
   font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.navlink:hover {
+  color: #ffb500;
+  /* font-weight: bolder; */
 }
 
 .maincontent {
@@ -89,4 +95,28 @@ nav div {
 }
 .morebutton:hover {
   background-color: #ffb500;
+}
+
+.aboutinfo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.yearinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+.yearinfo p {
+  margin-top: 5px;
+}
+
+.worktitle {
+  font-stretch: 10px;
+  font-weight: bold;
+  color: #ffb500;
 }
